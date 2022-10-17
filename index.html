@@ -41,13 +41,14 @@
         <section id="Overview">
             <H3>Quick Overview From Last Time</H3>
             <p>From last meeting, we discussed about ... and we left with the following questions still</p>
-            <ul>
-                <li>Unfinished task ... </li>
-                <li>Key Idea from last time ...</li>
-            </ul>
+            <div class="lastMeeting">
+                <div>Unfinished task ... </div>
+                <div>Key Idea one from last time ...</div>
+                <div>Key Idea two from last time ...</div>
+            </div>
         </section>
         <hr>
-
+       
         <section id="NewIdeas">
             <h2>Today's Meeting</h2>
             <h3>Key Ideas suggested during the meeting</h3>
@@ -63,9 +64,10 @@
         </section>
         <hr>
 
+        </div>
         <Section id="Attendance">
             <h3>Attendance list for this meeting</h3>
-            <ul>
+            <ul id="attendList">
                 <li><em>Team Leader</em> Student A</li>
                 <li><em>Team Leader</em> Student B</li>
                 <li>Student C</li>
@@ -84,8 +86,8 @@
         </section>
         <hr>
 
-        <details>
-            <summary>Meeting Schedule</summary>
+        <details id="details">
+            <summary >Meeting Schedule</summary>
                 Meeting 2 is tentatively scheduled at <em>10/12/2022</em> <br>
                 Meeting 3 schedule to be determined
         </details>
@@ -140,10 +142,10 @@
         <footer>
             <nav>
                 <p><a href="https://github.com/">Project Github Page</a></p>
-                <p><a href="#Top">Back to Top</a></p>
+                <p id="toTop"><a href="#Top">Back to Top</a></p>
                 <h4>TA Contact Information</h4>
-                    Email: xxxx@ucsd.edu
-                    Discord: xxxxxxx
+                <p>Email: xxxx@ucsd.edu</p>
+                <p>xxxxxxx</p>
             </nav>
         </footer>
     </body>
