@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "ComfortaaRegular";
+    src: url("Fonts/comfortaa-variablefont_wght-webfont.woff2") format("woff2"), 
+         url("Fonts/comfortaa-variablefont_wght-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+#MeetingNotes{
+    color: rgb(11, 11, 147);
+}
+
+#heading{
+    background-color:#18da9d;
+    opacity: 0.6;
+}
+
+* {
+    font-family: "ComfortaaRegular" ;
+}
+
+#navbar > li {
+    color: hsl(210, 100%, 50%);
+    margin-top: 1cm;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 3Q;
+    border-style:groove;
+    border-color:  hsl(210, 100%, 50%);
+    border-width: 1;
+    border-radius:2cm
+}
+
+#agendaList > li {
+    color: green;
+    margin: 25px 5vh 2ex 2vw;
+}
+
