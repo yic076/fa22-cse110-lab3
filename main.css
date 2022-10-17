@@ -8,6 +8,7 @@
 
 #MeetingNotes{
     color: rgb(11, 11, 147);
+    text-align: center;
 }
 
 #heading{
@@ -28,11 +29,92 @@
     border-style:groove;
     border-color:  hsl(210, 100%, 50%);
     border-width: 1;
-    border-radius:2cm
+    border-radius:2cm;
+}
+
+#Agenda > h3 {
+    margin: auto;
+    border-style:inset;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    max-width:max-content
+}
+
+#Agenda > p {
+    display: block;
+    padding: 2px 2px 2px 2px;
+    min-width: max-content;
+    text-align: center;
+    text-decoration: underline;
 }
 
 #agendaList > li {
+    text-align: center;
     color: green;
     margin: 25px 5vh 2ex 2vw;
 }
 
+#p,h3{
+    display: block;
+    border-style: dashed;
+}
+#attendList {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.lastMeeting {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+#Recording{
+    position: static;
+}
+
+#details{
+    display: inline;
+    background-color: cyan;
+    border-style:outset;
+    width: ex;
+}
+
+#details summary{
+    display: block;
+    height: 2ex;
+}
+
+button{
+    background-color: cornflowerblue;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+#Recording{
+    position: relative;
+    left: 100px;
+    border: 5px solid green;
+    width: 300px;
+}
+
+fieldset{
+    border: 5px solid lightyellow;
+    background-color: lightgray;
+}
+
+h4 ~ label{
+    border: 2px dashed lightpink;
+}
+
+h4 + p{
+    color:royalblue;
+}
+
+a[href] {
+    text-decoration:underline;
+}
